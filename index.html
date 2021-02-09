@@ -83,31 +83,37 @@
   </head>
   <body>
     <div>
-      <div>3D Audio Sound Design for Web-based Games</div>
+      <div>
+        3D Audio Sound Design for <br />
+        Web-based Games
+      </div>
       <div>
         <em> Tate Carson, MM, MFA </em>
       </div>
       <notes></notes>
     </div>
     <div>
-      <div>Creative-based music game</div>
+      <div>Creative-based Music Game</div>
       <ol>
         <li>
-          music - the core gameplay activity must be predicated on musical
+          Music - The core gameplay activity must be predicated on musical
           decision-making and the player must be able to influence the
           production of music through the direct use of game mechanics.
         </li>
         <li>
-          creative-based - the player must plausibly be able to mentally frame
+          Creative-based - The player must plausibly be able to mentally frame
           their use of the mechanics as having created new music in all
           instances of play.
         </li>
         <li>
-          game - an 'unnecessary obstacle' must be enforced by an automated game
+          Game - An 'unnecessary obstacle' must be enforced by an automated game
           mechanic, and the player must 'exert effort' to achieve a self-imposed
-          'aesthetic goal', the value of which is mediated by their personal
-          music bias, and for which the emotional consequences' are both
-          self-negotiated and 'optional'.
+          'aesthetic goal,' the value of which is mediated by their personal
+          music bias.
+          <!-- 
+            , and for which the emotional 'consequences' are both
+          self-negotiated and 'optional.'
+           -->
         </li>
         <li>
           Also, the 'game' must be apprehended as an activity rather than an
@@ -126,7 +132,11 @@
       <notes> </notes>
     </div>
     <div>
-      <img src="images/mesh-garden/Guitar-GH3-hammeron.0.webp" alt="" />
+      <img
+        src="images/mesh-garden/Guitar-GH3-hammeron.0.webp"
+        width="80%"
+        alt=""
+      />
       <div>Guitar Hero</div>
       <div class="credit">
         <em> Photo: </em>
@@ -217,13 +227,13 @@
     <div>
       <div>Technology used:</div>
       <ul>
-        <li>3d Graphics - <a href="https://threejs.org/">Three.js</a></li>
+        <li>3D Graphics - <a href="https://threejs.org/">Three.js</a></li>
         <li>Audio - <a href="https://tonejs.github.io/">Tone.js</a></li>
       </ul>
     </div>
     <div>Concepts</div>
     <div>
-      <div>3d Audio</div>
+      <div>3D Audio</div>
       <div>
         <ul>
           <li>
@@ -231,12 +241,12 @@
             source
           </li>
           <li>
-            Rolloff Factor - volume is reduced as the listener moves back from a
+            Rolloff Factor - volume is reduced as the listener moves away from a
             source
           </li>
           <li>
-            Reference Distance - how close do you need to be for volume
-            reduction to take place
+            Reference Distance - how close you need to be for volume reduction
+            to take place
           </li>
         </ul>
       </div>
@@ -253,8 +263,8 @@
         <ul>
           <li>Algorithmic techniques to keep the sound from repeating</li>
           <li>
-            Here we adjust settings of a synthesizer based on the players
-            distance from the spheres
+            In this piece, the settings of a synthesizer are adjusted based on
+            the players distance from the spheres
           </li>
         </ul>
       </div>
@@ -357,7 +367,7 @@
       </notes>
     </div>
     <div>
-      When a player goes upto a sphere:
+      When a player approaches a sphere:
       <pre>
         <code class="javascript">
           const rateMap = map(getDistance(myLocation, mesh1), 20, 50, 1, 3);
@@ -369,7 +379,7 @@
       </pre>
     </div>
     <div>
-      <div>Extensions: Ambisoncis and Binaural audio</div>
+      <div>Extensions: Ambisonic and Binaural Audio</div>
       <ul>
         <li>
           <a
@@ -379,7 +389,10 @@
           >
           - Multiple platforms
         </li>
-        <li><a href="https://www.envelop.us/">Envelope</a> - Ableton</li>
+        <li>
+          <a href="https://www.envelop.us/software">Envelop for Live</a> -
+          Ableton Live
+        </li>
         <li>
           <a href="http://www.ambisonictoolkit.net/">Ambisonic Toolkit</a> -
           Reaper and SuperCollider
