@@ -63,7 +63,7 @@ addEventListener("load", () => {
       for (let note of sc._notes)
         console.log(
           "%c%s",
-          "padding:5px;font-family:serif;font-size:18px;line-height:150%;",
+          "padding:5px;font-family:serif;font-size:25px;line-height:150%;",
           note
         );
       console.groupEnd();
